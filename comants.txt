@@ -2,3 +2,4 @@ git status (проверить что есть чего нету)
 git add . (добавить все)
 git commit -m "то что сделал(англ)"
 git log --onelie
+git push
