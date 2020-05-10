@@ -1,18 +1,15 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Buttons : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    void OnMouseDown()
     {
-        
+        transform.localScale = new Vector3(1.05f, 1.05f, 1.05f);
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnMouseUp()
     {
-        
+        transform.localScale = new Vector3(1f, 1f, 1f);
     }
 }
