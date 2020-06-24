@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 448627653}
   - component: {fileID: 448627655}
   - component: {fileID: 448627656}
+  - component: {fileID: 448627657}
   m_Layer: 5
   m_Name: Image Training
   m_TagString: Untagged
@@ -235,6 +236,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 50, y: 67}
   m_EdgeRadius: 0
+--- !u!114 &448627657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448627651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0bf43959a957494d95384955155fa0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,6 +894,7 @@ GameObject:
   - component: {fileID: 1585711754}
   - component: {fileID: 1585711756}
   - component: {fileID: 1585711757}
+  - component: {fileID: 1585711758}
   m_Layer: 5
   m_Name: Image Inventory
   m_TagString: Untagged
@@ -982,6 +996,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 50, y: 67}
   m_EdgeRadius: 0
+--- !u!114 &1585711758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585711752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50dfb5f03e43181468c991a80045e388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1620793912
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,6 +1021,7 @@ GameObject:
   - component: {fileID: 1620793914}
   - component: {fileID: 1620793916}
   - component: {fileID: 1620793917}
+  - component: {fileID: 1620793918}
   m_Layer: 5
   m_Name: Image Fight
   m_TagString: Untagged
@@ -1096,6 +1123,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 50, y: 67}
   m_EdgeRadius: 0
+--- !u!114 &1620793918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620793912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 827d932e93e07cd41a38db897557f41d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1623003985
 GameObject:
   m_ObjectHideFlags: 0
@@ -1130,7 +1169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.13000001, y: 0.76830775}
   m_AnchorMax: {x: 0.26666668, y: 0.81030774}
-  m_AnchoredPosition: {x: 0.6999817, y: 0.5290985}
+  m_AnchoredPosition: {x: 0.7000122, y: 0.5290985}
   m_SizeDelta: {x: 0.44660187, y: 1.0582728}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1623003987
@@ -1208,7 +1247,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.1, y: 0.80300003}
   m_AnchorMax: {x: 0.37, y: 0.8896923}
-  m_AnchoredPosition: {x: 0.3500061, y: 0.08999634}
+  m_AnchoredPosition: {x: 0.3499756, y: 0.08999634}
   m_SizeDelta: {x: 1.1091232, y: 1.3942184}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1779328500
